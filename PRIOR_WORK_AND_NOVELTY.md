@@ -53,7 +53,7 @@ $$
 \Psi_{\text{fair}} = \sum_i \alpha_i |d_i\rangle
 $$
 
-where |d_i⟩ are possible AI decisions, and α_i dynamically adjust based on fairness constraints.
+where $|d_i⟩$ are possible AI decisions, and $α_i$ dynamically adjust based on fairness constraints.
 - To prevent biased dominance of one decision, UQPL enforces:
 
 $$
@@ -103,7 +103,11 @@ P_{\text{UQPL}}(y | X) = \sigma(WX + b) \cdot U_{\text{fair}}
 $$
 
 where  
-$U_{\text{fair}} = \exp(-i H_{\text{bias}})$
+
+$$
+U_{\text{fair}} = \exp(-i H_{\text{bias}})
+$$
+
 acts as a bias-correction function that maintains fairness dynamically.
 
 
