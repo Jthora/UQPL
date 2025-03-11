@@ -40,7 +40,7 @@ The **Universal Quantum Programming Language (UQPL)** is a novel AI framework de
    - Unlike any prior AI fairness method, UQPL **uses quantum logic principles** (e.g., **state superposition, entanglement-like bias correction**) to maintain fairness dynamically.  
 
 
-### How UQPL Differs from Prior Work
+## How UQPL Differs from Prior Work
 
 | Approach | Focus | Strengths | Weaknesses | How UQPL Differs |
 |----------|-------|-----------|------------|-------------------|
@@ -51,7 +51,7 @@ The **Universal Quantum Programming Language (UQPL)** is a novel AI framework de
 | **Quantum ML** | Uses quantum computing for AI | High-dimensional representation power | Does not focus on bias mitigation | UQPL applies **quantum-inspired logic for fairness balancing**, even on classical systems |
 
 
-### Prior Work & Its Limitations
+## Prior Work & Its Limitations
 
 Several approaches have been proposed for mitigating bias in AI systems:  
 
@@ -71,7 +71,7 @@ Several approaches have been proposed for mitigating bias in AI systems:
    - **How UQPL Differs:** UQPL applies **fairness corrections across all AI architectures**, not just graph-based models.
 
 
-### Quantum Logic & Fairness Balancing
+## Quantum Logic & Fairness Balancing
 
 UQPL introduces **quantum-inspired fairness balancing**, where bias is corrected dynamically rather than pre-adjusted with heuristics.
 
@@ -87,11 +87,11 @@ Consider a **binary classification AI** making a decision based on **feature A**
 
 - If a bias **shifts α disproportionately**, UQPL corrects it by ensuring **α and β are rebalanced** according to mathematical fairness axioms.  
 
-#### Why This Matters
+### Why This Matters
 Unlike adversarial retraining, which **reactively adjusts biases**, UQPL **ensures fairness is dynamically maintained** during AI reasoning.
 
 
-### Potential Criticisms & Responses  
+## Potential Criticisms & Responses  
 
 Criticism 1️⃣: *"Isn't this just another neurosymbolic AI variant?"*  
 **Response:** Neurosymbolic AI **still relies on learned heuristics** to adjust for bias.  
@@ -106,7 +106,7 @@ Criticism 3️⃣: *"Quantum logic has never been proven to help AI fairness—w
 UQPL uses **state superposition and dynamic entanglement-like corrections** to **continuously balance fairness**, making it **adaptive and self-correcting**.
 
 
-### Historical Context of AI Fairness  
+## Historical Context of AI Fairness  
 
 1️⃣ **Early AI (1950s-1990s)**  
    - AI focused on logic-based systems (Symbolic AI, GOFAI).  
