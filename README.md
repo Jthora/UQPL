@@ -7,7 +7,9 @@ The Universal Quantum Programming Language (UQPL) is registered under a Defensiv
 This Defensive Publication serves as a safeguard to maintain open access to the UQPL methodology, ensuring its development remains collaborative and free for use in research, education, and further innovation. It guarantees that the core ideas behind UQPL cannot be patented, promoting transparency and advancing the collective understanding of quantum-classical hybrid AI systems.
 
 For further reference and citation, the UQPL Defensive Publication is accessible via the Digital Object Identifier (DOI):
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15002015.svg)](https://doi.org/10.5281/zenodo.15002015)
+
 By providing this Defensive Publication, the intent is to enable anyone in the scientific, academic, and AI communities to develop, explore, and contribute to the evolving field of quantum programming languages, while keeping the principles of fairness, openness, and collaboration intact.
 
 ---
