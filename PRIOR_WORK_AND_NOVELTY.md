@@ -48,10 +48,14 @@ By shifting fairness enforcement from **statistical adjustments** to **intrinsic
 - Instead of assigning static probabilities, fairness-balancing operates dynamically using state updates.
 
 ### Equation: UQPL Fairness State Representation
-$$ \Psi_{\text{fair}} = \sum_i \alpha_i |d_i\rangle $$  
+$$
+\Psi_{\text{fair}} = \sum_i \alpha_i |d_i\rangle
+$$  
 where |d_i⟩ are possible AI decisions, and α_i dynamically adjust based on fairness constraints.
 - To prevent biased dominance of one decision, UQPL enforces:
-$$ |\alpha_A|^2 \approx |\alpha_B|^2 $$  
+$$
+|\alpha_A|^2 \approx |\alpha_B|^2
+$$  
 ensuring balance across decision outcomes.
 
 
@@ -64,8 +68,10 @@ ensuring balance across decision outcomes.
 
 ### Equation: Fairness Correction via State Evolution
 If bias shifts α disproportionately, UQPL applies a fairness correction function:
-$$ U_{\text{fair}} |\Psi\rangle = e^{-i H_{\text{bias}} t} |\Psi\rangle $$  
-where H_{\text{bias}} is a fairness operator that prevents imbalance.
+$$
+U_{\text{fair}} |\Psi\rangle = e^{-i H_{\text{bias}} t} |\Psi\rangle
+$$  
+where $H_{\text{bias}}$ is a fairness operator that prevents imbalance.
 
 
 ##  Computational Feasibility & Practical Implementation
@@ -79,12 +85,18 @@ where H_{\text{bias}} is a fairness operator that prevents imbalance.
 
 ### Equation: UQPL Fairness Constraint in Neural Networks
 In a standard classifier:
-$$ P(y | X) = \sigma(WX + b) $$
+$$
+P(y | X) = \sigma(WX + b)
+$$
 
 UQPL introduces fairness balancing:
-$$ P_{\text{UQPL}}(y | X) = \sigma(WX + b) \cdot U_{\text{fair}} $$  
+$$
+P_{\text{UQPL}}(y | X) = \sigma(WX + b) \cdot U_{\text{fair}}
+$$  
 where  
-$$ U_{\text{fair}} = \exp(-i H_{\text{bias}}) $$  
+$$
+U_{\text{fair}} = \exp(-i H_{\text{bias}})
+$$  
 acts as a bias-correction function that maintains fairness dynamically.
 
 
