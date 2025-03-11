@@ -1,1 +1,0 @@
-# Healthcare-specific applications
